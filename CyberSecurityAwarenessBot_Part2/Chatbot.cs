@@ -72,7 +72,7 @@ namespace CyberSecurityAwarenessBot_Part2
                 userInput.Contains("scared") ||
                 userInput.Contains("nervous"))
             {
-                return "It's understandable to feel worried about cybersecurity threats. Staying informed and cautious is the best way to protect yourself online.";
+                return "It is understandable to feel worried about cybersecurity threats. Staying informed and cautious is the best way to protect yourself online.";
             }
 
             if (userInput.Contains("frustrated") ||
@@ -83,7 +83,7 @@ namespace CyberSecurityAwarenessBot_Part2
 
             if (userInput.Contains("curious"))
             {
-                return "It's great that you're curious about cybersecurity. Learning more helps you stay safer online.";
+                return "It's great that you are curious about cybersecurity. Learning more helps you stay safer online.";
             }
 
             if (userInput.Contains("confused"))
@@ -196,7 +196,7 @@ namespace CyberSecurityAwarenessBot_Part2
             // DEFAULT RESPONSE
             // ==============================
 
-            return "I'm not sure I understand. Can you try rephrasing?";
+            return "I'm not sure I understand. Can you try rephrasing your sentence?";
         }
     }
 }

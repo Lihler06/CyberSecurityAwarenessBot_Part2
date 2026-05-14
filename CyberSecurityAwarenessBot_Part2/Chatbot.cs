@@ -61,7 +61,7 @@ namespace CyberSecurityAwarenessBot_Part2
 
         public string GetResponse(string userInput)
         {
-            // Convert user input to lowercase
+           
             userInput = userInput.ToLower();
 
             // ==============================
@@ -151,7 +151,7 @@ namespace CyberSecurityAwarenessBot_Part2
                            + rememberedResponses[memoryIndex];
                 }
 
-                return "Please first ask about a cybersecurity topic like password safety, phishing, privacy, scams, or malware.";
+                return "Please first ask about a Cybersecurity topic like Password safety, Phishing, Privacy, Scams, or Malware.";
             }
 
             // ==============================
@@ -162,7 +162,7 @@ namespace CyberSecurityAwarenessBot_Part2
             {
                 if (userInput.Contains(keyword))
                 {
-                    // Save topic into memory
+                    
                     rememberedTopic = keyword;
 
                     List<string> possibleResponses = responses[keyword];
@@ -189,7 +189,7 @@ namespace CyberSecurityAwarenessBot_Part2
 
             if (userInput.Contains("help"))
             {
-                return "You can ask me about passwords, phishing, scams, malware, or privacy.";
+                return "You can ask me about Passwords, Phishing, Scams, Malware, or Privacy.";
             }
 
             // ==============================

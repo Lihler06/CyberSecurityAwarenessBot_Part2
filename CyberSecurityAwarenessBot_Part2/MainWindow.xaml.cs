@@ -12,7 +12,7 @@ namespace CyberSecurityAwarenessBot_Part2
 
         private Chatbot chatbot;
 
-        // Delegate (required by assignment)
+        
         public delegate string ChatbotDelegate(string input);
         private ChatbotDelegate processMessage;
 
@@ -28,7 +28,7 @@ namespace CyberSecurityAwarenessBot_Part2
             // ==============================
             try
             {
-                // Make sure file is inside project and named EXACTLY this
+                
                 player = new SoundPlayer("Greeting.wav");
                 player.Play();
             }
@@ -81,7 +81,7 @@ namespace CyberSecurityAwarenessBot_Part2
             {
                 ChatDisplay.AppendText("You: " + userMessage + "\n");
 
-                // Using delegate instead of direct method call
+               
                 string response = processMessage(userMessage);
 
                 ChatDisplay.AppendText("Bot: " + response + "\n\n");

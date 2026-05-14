@@ -21,7 +21,7 @@ namespace CyberSecurityAwarenessBot_Part2
             // PASSWORD RESPONSES
             responses.Add("password", new List<string>
             {
-                "Use strong and unique passwords for every account.",
+                "Use strong and unique passwords for every account you use.",
                 "Avoid using personal information in your passwords.",
                 "Consider using a password manager for better security."
             });
@@ -45,7 +45,7 @@ namespace CyberSecurityAwarenessBot_Part2
             // SCAM RESPONSES
             responses.Add("scam", new List<string>
             {
-                "Never share banking details with untrusted sources.",
+                "Never share banking details with untrusted sources and people.",
                 "Online scammers often create fake urgency to pressure victims.",
                 "Be careful of deals or prizes that seem too good to be true."
             });
